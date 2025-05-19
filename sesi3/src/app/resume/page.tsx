@@ -24,7 +24,7 @@ export default function resume() {
   return (
     <>
       <FloatingNav navItems={navItems} />
-      <div className="bg-black pt-28 flex flex-col items-center justify-center min-h-screen p-8 pb-20 gap-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <div className="bg-black text-gray-700 pt-28 flex flex-col items-center justify-center min-h-screen p-8 pb-20 gap-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <h1 className="text-white pt-25 text-4xl font-bold text-center">
           Res<span className="text-blue-500">ume</span>
         </h1>
