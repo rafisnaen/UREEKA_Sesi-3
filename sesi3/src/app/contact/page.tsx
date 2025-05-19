@@ -14,11 +14,11 @@ export default function Contact() {
   return (
     <>
       <FloatingNav navItems={navItems} />
-      <div className="pt-28 text-gray-700 grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <h1 className="pt-25 text-4xl font-bold text-center">
+      <div className="pt-28 bg-black text-gray-700 grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+        <h1 className="pt-25 text-white text-4xl font-bold text-center">
           Cont<span className="text-blue-500">act</span>
         </h1>
-        <p className="text-lg text-gray-600 text-center">
+        <p className="text-lg text-white text-center">
           If you have any questions, feel free to reach out !
         </p>
         <div className="flex space-x-4 mt-4">
