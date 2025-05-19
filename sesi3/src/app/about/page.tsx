@@ -22,7 +22,6 @@ export default function about() {
             I am ambitious and eager to learn, so I had satisfactory academic performance during my high school and college education so far.
           </p>
         </div>
-
       </div>
     </>
   );

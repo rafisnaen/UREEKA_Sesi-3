@@ -35,13 +35,13 @@ export default function Experience() {
   return (
     <>
       <FloatingNav navItems={navItems} />
-      <div className="pt-28 text-gray-700 grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <h1 className="pt-25 text-4xl font-bold text-center">
+      <div className="pt-28 bg-black text-gray-700 grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+        <h1 className="pt-25 text-white text-4xl font-bold text-center">
           Exper<span className="text-blue-500">ience</span>
         </h1>
 
         <div className="max-w-2xl text-center space-y-4">
-          <p className="text-lg">Berikut beberapa proyek yang pernah saya kerjakan:</p>
+          <p className="text-lg text-white">Berikut beberapa proyek yang pernah saya kerjakan:</p>
           <ul className="space-y-2">
             {projects.map((project) => (
               <li key={project.name}>
@@ -49,7 +49,7 @@ export default function Experience() {
                   href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-blue-500 hover:underline"
                 >
                   {project.name}
                 </a>
